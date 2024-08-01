@@ -90,8 +90,8 @@ def main():
         
         # Generate glossary terms
         glossary_terms = generate_glossary_terms(summarized_text)
-        st.subheader("Glossary Terms")
-        st.write(glossary_terms)
+        #st.subheader("Glossary Terms")
+        #st.write(glossary_terms)
 
         # Generate definitions for glossary terms
         glossary_definitions = generate_definitions(glossary_terms, summarized_text)
